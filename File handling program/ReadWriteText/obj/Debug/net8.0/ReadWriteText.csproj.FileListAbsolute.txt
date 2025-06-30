@@ -1,0 +1,14 @@
+D:\File handling program\ReadWriteText\bin\Debug\net8.0\ReadWriteText.exe
+D:\File handling program\ReadWriteText\bin\Debug\net8.0\ReadWriteText.deps.json
+D:\File handling program\ReadWriteText\bin\Debug\net8.0\ReadWriteText.runtimeconfig.json
+D:\File handling program\ReadWriteText\bin\Debug\net8.0\ReadWriteText.dll
+D:\File handling program\ReadWriteText\bin\Debug\net8.0\ReadWriteText.pdb
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.GeneratedMSBuildEditorConfig.editorconfig
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.AssemblyInfoInputs.cache
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.AssemblyInfo.cs
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.csproj.CoreCompileInputs.cache
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.dll
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\refint\ReadWriteText.dll
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.pdb
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ReadWriteText.genruntimeconfig.cache
+D:\File handling program\ReadWriteText\obj\Debug\net8.0\ref\ReadWriteText.dll

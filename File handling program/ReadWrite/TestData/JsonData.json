@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Gopi",
+    "FatherName": "Govindarj",
+    "StudentGender": 1,
+    "DOB": "2002-04-26T00:00:00",
+    "TotalMarks": 400
+  },
+  {
+    "Name": "Gokul",
+    "FatherName": "Govindarj",
+    "StudentGender": 1,
+    "DOB": "2005-04-23T00:00:00",
+    "TotalMarks": 400
+  }
+]
