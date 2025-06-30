@@ -1,0 +1,67 @@
+#contact-details {
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 1s;
+  flex-direction: column;
+  padding: 5rem;
+  justify-content: center;
+}
+#contact-details .contact-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#contact-details h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 150px;
+}
+#contact-details .send-message {
+  margin-bottom: 0.4 rem;
+}
+#contact-details .send-message h1 {
+  margin-bottom: 1 rem;
+}
+#contact-details textarea {
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+#contact-details .sender-email {
+  margin-top: 0.5rem;
+}
+#contact-details .sender-email input {
+  width: 18rem;
+  padding: 0.8rem;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+#contact-details .send-button {
+  width: 100%;
+  margin-top: 1rem;
+}
+#contact-details .send-button button {
+  padding: 1rem;
+  border: 3px solid red;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: red;
+  margin-left: 200px;
+}
+#contact-details .send-button button:hover {
+  background-color: orange;
+  color: white;
+}
+#contact-details .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  line-height: 3;
+  padding: 20px;
+  background-color: rgb(105, 111, 111);
+}/*# sourceMappingURL=contact.css.map */

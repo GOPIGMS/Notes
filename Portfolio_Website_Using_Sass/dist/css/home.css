@@ -1,0 +1,30 @@
+.home {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: all 1s;
+}
+.home h1, .home h2 {
+  line-height: 1.8;
+  font-weight: 700;
+  font-size: 45px;
+}
+.home button {
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.home button:hover {
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=home.css.map */

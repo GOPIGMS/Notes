@@ -1,0 +1,35 @@
+#projects {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  line-height: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.4rem 0.7rem;
+  position: relative;
+}
+#projects .global-header {
+  position: absolute;
+  top: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#projects h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#projects .wrapper {
+  width: 35%;
+  background-color: rgba(151, 142, 129, 0.518);
+  border: 1px solid rgba(236, 33, 198, 0.518);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+#projects span {
+  font-size: 35px;
+  color: rgb(232, 156, 70);
+}/*# sourceMappingURL=projects.css.map */

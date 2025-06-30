@@ -1,0 +1,24 @@
+#about-me {
+  padding-top: 5 rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  line-height: 3;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 1s;
+  position: relative;
+  justify-content: space-around;
+}
+#about-me h1, #about-me h2 {
+  line-height: 1.8;
+  font-weight: 700;
+}
+#about-me .global-header {
+  position: absolute;
+  top: 3rem;
+  font-size: 4rem;
+}/*# sourceMappingURL=aboutMe.css.map */

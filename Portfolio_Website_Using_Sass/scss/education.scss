@@ -1,0 +1,34 @@
+#education{
+
+    padding-top: 5 rem;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-size: cover;  
+    color: rgb(254, 254, 254);
+      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .global-header{
+        top: 3rem;
+        font-size: 4rem;
+        font-weight: 700;
+        color:white;
+
+    }
+    h1{
+        font-weight: 700;
+    }
+
+    .wrapper{
+        
+        background-color: rgba(151, 142, 129, 0.518);
+        border: 1px solid rgba(236, 33, 198, 0.518);
+        padding:2rem;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+}

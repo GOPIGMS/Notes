@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: all 1s;
+}
+.home h1, .home h2 {
+  line-height: 1.8;
+  font-weight: 700;
+  font-size: 45px;
+}
+.home button {
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.home button:hover {
+  background-color: red;
+  color: white;
+}
+
+#about-me {
+  padding-top: 5 rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  line-height: 3;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 1s;
+  position: relative;
+  justify-content: space-around;
+}
+#about-me h1, #about-me h2 {
+  line-height: 1.8;
+  font-weight: 700;
+}
+#about-me .global-header {
+  position: absolute;
+  top: 3rem;
+  font-size: 4rem;
+}
+
+#education {
+  padding-top: 5 rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  color: rgb(254, 254, 254);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#education .global-header {
+  top: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+#education h1 {
+  font-weight: 700;
+}
+#education .wrapper {
+  background-color: rgba(151, 142, 129, 0.518);
+  border: 1px solid rgba(236, 33, 198, 0.518);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+#projects {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  line-height: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.4rem 0.7rem;
+  position: relative;
+}
+#projects .global-header {
+  position: absolute;
+  top: 4rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#projects h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#projects .wrapper {
+  width: 35%;
+  background-color: rgba(151, 142, 129, 0.518);
+  border: 1px solid rgba(236, 33, 198, 0.518);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+#projects span {
+  font-size: 35px;
+  color: rgb(232, 156, 70);
+}
+
+#contact-details {
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 1s;
+  flex-direction: column;
+  padding: 5rem;
+  justify-content: center;
+}
+#contact-details .contact-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#contact-details h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 150px;
+}
+#contact-details .send-message {
+  margin-bottom: 0.4 rem;
+}
+#contact-details .send-message h1 {
+  margin-bottom: 1 rem;
+}
+#contact-details textarea {
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+#contact-details .sender-email {
+  margin-top: 0.5rem;
+}
+#contact-details .sender-email input {
+  width: 18rem;
+  padding: 0.8rem;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+#contact-details .send-button {
+  width: 100%;
+  margin-top: 1rem;
+}
+#contact-details .send-button button {
+  padding: 1rem;
+  border: 3px solid red;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: red;
+  margin-left: 200px;
+}
+#contact-details .send-button button:hover {
+  background-color: orange;
+  color: white;
+}
+#contact-details .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  line-height: 3;
+  padding: 20px;
+  background-color: rgb(105, 111, 111);
+}
+
+body {
+  background-color: rgb(48, 47, 46);
+  color: rgb(188, 174, 174);
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  transition: all 1s;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+span {
+  color: red;
+}
+
+header {
+  background-color: rgb(84, 82, 82);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+  min-height: 4rem;
+}
+header .nav {
+  display: flex;
+  min-height: 3rem;
+  align-items: center;
+}
+header .nav ul {
+  display: flex;
+  min-height: 2rem;
+  justify-content: space-around;
+  min-height: 100%;
+  width: 100%;
+  align-items: stretch;
+}
+header .nav ul li {
+  min-height: 2rem;
+}
+header .nav ul li a {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  min-height: 100%;
+}
+header .nav ul li a:hover {
+  background-color: #ff652f;
+  min-height: 100%;
+  color: rgb(238, 235, 235);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  color: rgb(157, 16, 16);
+}
+.social-icons a {
+  color: red;
+}
+
+a {
+  padding: 0.4rem;
+}
+a:hover {
+  color: #ff652f;
+}
+
+.my-image {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-image img {
+  width: 300px;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: brown;
+}/*# sourceMappingURL=main.css.map */

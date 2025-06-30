@@ -1,0 +1,126 @@
+@import './config';
+@import './home.scss';
+@import './aboutMe.scss';
+@import './education.scss';
+@import './projects.scss';
+@import './contact.scss';
+
+body {
+    background-color: rgb(48, 47, 46);
+    color: rgb(188, 174, 174);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1; 
+    transition: all 1s;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,h2,h3{
+    font-weight: 400;
+     line-height: 1.5;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+span{
+    color: red;
+}
+header{
+    background-color: rgb(84, 82, 82);
+    position :fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+    min-height: 4rem;
+    .nav{
+        display :flex;
+        min-height: 3rem;
+        align-items: center;
+        ul{
+            display: flex;
+            min-height: 2rem;
+            justify-content: space-around;
+            min-height:100%;
+            width: 100%;
+            align-items: stretch;
+            
+            li{
+                min-height: 2rem; 
+            a{  
+                padding: 0.5rem;
+                display: flex;
+                align-items: center;
+                font-size: 1.5rem;
+                min-height: 100%;
+                
+                &:hover{
+                   background-color: $secondary-color;
+                    min-height: 100%;
+                    color: rgb(238, 235, 235);
+                }
+            }
+            }
+    
+        }
+    }
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.social-icons {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    color: rgb(157, 16, 16);
+    a {
+        
+        color: red;
+    }
+}
+
+a{
+    padding: 0.4rem;
+   
+
+    &:hover{
+        color:$secondary-color;
+    }
+
+}
+
+.my-image{
+    width: 500px;
+    height:500px;
+    background-color: white;
+    img{
+        width: 300px;
+    }
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+footer{
+    font-size: 1rem;
+    position:fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: brown;
+
+}
+
