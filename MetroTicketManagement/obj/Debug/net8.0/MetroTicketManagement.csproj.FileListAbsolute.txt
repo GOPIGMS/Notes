@@ -1,0 +1,14 @@
+D:\MetroTicketManagement\bin\Debug\net8.0\MetroTicketManagement.exe
+D:\MetroTicketManagement\bin\Debug\net8.0\MetroTicketManagement.deps.json
+D:\MetroTicketManagement\bin\Debug\net8.0\MetroTicketManagement.runtimeconfig.json
+D:\MetroTicketManagement\bin\Debug\net8.0\MetroTicketManagement.dll
+D:\MetroTicketManagement\bin\Debug\net8.0\MetroTicketManagement.pdb
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.AssemblyInfoInputs.cache
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.AssemblyInfo.cs
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.csproj.CoreCompileInputs.cache
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.dll
+D:\MetroTicketManagement\obj\Debug\net8.0\refint\MetroTicketManagement.dll
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.pdb
+D:\MetroTicketManagement\obj\Debug\net8.0\MetroTicketManagement.genruntimeconfig.cache
+D:\MetroTicketManagement\obj\Debug\net8.0\ref\MetroTicketManagement.dll
