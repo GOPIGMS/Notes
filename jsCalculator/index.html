@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js" defer></script>
+</head>
+<body>
+    <div class="calci">
+        <div class="displays">
+          <input type="text" name="display" id="displayer">
+        </div>
+        <div class="buttons">
+            <div class="row1">
+                <button class="button" onclick="toAppendValue('7')">
+                    7
+                </button>
+                <button class="button" onclick="toAppendValue('8')">
+                    8
+                </button>
+                <button class="button" onclick="toAppendValue('9')">
+                    9
+                </button>
+                <button class="button" onclick="toAppendValue('/')">
+                    /
+                </button>
+            </div>
+            <div class="row2">
+                <button class="button" value="7" onclick="toAppendValue('4')">
+                    4
+                </button>
+                <button class="button" onclick="toAppendValue('5')">
+                    5
+                </button>
+                <button class="button" onclick="toAppendValue('6')">
+                    6
+                </button>
+                <button class="button" onclick="toAppendValue('*')">
+                    *
+                </button>
+            </div>
+            <div class="row3">
+                <button class="button" value="7" onclick="toAppendValue('1')">
+                    1
+                </button>
+                <button class="button" onclick="toAppendValue('2')">
+                    2
+                </button>
+                <button class="button" onclick="toAppendValue('3')">
+                    3
+                </button>
+                <button class="button" onclick="toAppendValue('-')">
+                    -
+                </button>
+            </div>
+            <div class="row3">
+                <button class="button" value="7" onclick="toAppendValue('.')">
+                    .
+                </button>
+                <button class="button" onclick="toAppendValue('0')">
+                    0
+                </button>
+                <button class="button" onclick="toAppendValue('+')">
+                    +
+                </button>
+                <button class="button-reset" onclick="clears()">
+                    C
+                </button>
+            </div>
+        </div>
+        <div class="equals-operator">
+           <button class="equals" onclick="calculate()">=</button>
+        </div>
+        
+    </div>
+     
+</body>
+</html>
