@@ -1,0 +1,14 @@
+D:\LinqWordPractice\LengthOfString\bin\Debug\net8.0\LengthOfString.exe
+D:\LinqWordPractice\LengthOfString\bin\Debug\net8.0\LengthOfString.deps.json
+D:\LinqWordPractice\LengthOfString\bin\Debug\net8.0\LengthOfString.runtimeconfig.json
+D:\LinqWordPractice\LengthOfString\bin\Debug\net8.0\LengthOfString.dll
+D:\LinqWordPractice\LengthOfString\bin\Debug\net8.0\LengthOfString.pdb
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.GeneratedMSBuildEditorConfig.editorconfig
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.AssemblyInfoInputs.cache
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.AssemblyInfo.cs
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.csproj.CoreCompileInputs.cache
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.dll
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\refint\LengthOfString.dll
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.pdb
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\LengthOfString.genruntimeconfig.cache
+D:\LinqWordPractice\LengthOfString\obj\Debug\net8.0\ref\LengthOfString.dll

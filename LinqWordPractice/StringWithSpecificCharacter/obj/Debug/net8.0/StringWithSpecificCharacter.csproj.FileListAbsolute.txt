@@ -1,0 +1,14 @@
+D:\LinqWordPractice\StringWithSpecificCharacter\bin\Debug\net8.0\StringWithSpecificCharacter.exe
+D:\LinqWordPractice\StringWithSpecificCharacter\bin\Debug\net8.0\StringWithSpecificCharacter.deps.json
+D:\LinqWordPractice\StringWithSpecificCharacter\bin\Debug\net8.0\StringWithSpecificCharacter.runtimeconfig.json
+D:\LinqWordPractice\StringWithSpecificCharacter\bin\Debug\net8.0\StringWithSpecificCharacter.dll
+D:\LinqWordPractice\StringWithSpecificCharacter\bin\Debug\net8.0\StringWithSpecificCharacter.pdb
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.GeneratedMSBuildEditorConfig.editorconfig
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.AssemblyInfoInputs.cache
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.AssemblyInfo.cs
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.csproj.CoreCompileInputs.cache
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.dll
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\refint\StringWithSpecificCharacter.dll
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.pdb
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\StringWithSpecificCharacter.genruntimeconfig.cache
+D:\LinqWordPractice\StringWithSpecificCharacter\obj\Debug\net8.0\ref\StringWithSpecificCharacter.dll

@@ -1,0 +1,14 @@
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.AssemblyInfoInputs.cache
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.AssemblyInfo.cs
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.csproj.CoreCompileInputs.cache
+D:\LinqWordPractice\LinqExercise\bin\Debug\net8.0\LinqExcercise.exe
+D:\LinqWordPractice\LinqExercise\bin\Debug\net8.0\LinqExcercise.deps.json
+D:\LinqWordPractice\LinqExercise\bin\Debug\net8.0\LinqExcercise.runtimeconfig.json
+D:\LinqWordPractice\LinqExercise\bin\Debug\net8.0\LinqExcercise.dll
+D:\LinqWordPractice\LinqExercise\bin\Debug\net8.0\LinqExcercise.pdb
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.dll
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\refint\LinqExcercise.dll
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.pdb
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\LinqExcercise.genruntimeconfig.cache
+D:\LinqWordPractice\LinqExercise\obj\Debug\net8.0\ref\LinqExcercise.dll
