@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Syncart</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="box">
+
+        <div class="sign">
+            <h1 onclick="signIn()" id="si">Sign In</h1>
+            <h1 onclick="signUp()" id="su">Sign Up</h1>
+        </div>
+        <div id="signup">
+            <form action="" onsubmit="signUpSubmit(event)">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="fatherName" placeholder="Father Name" required>
+                <label for="gender" id="gender-label">Gender</label>
+                <label for="select" id="select-label">Select</label> <input type="radio" name="gender" id="select" value="Select">
+                <label for="male" id="male-label">Male</label> <input type="radio" name="gender" id="male" value="Male">
+                <label for="female" id="female-label">Female</label> <input type="radio" name="gender" id="female" value="Female">
+                <label for="trans" id="=trans-label">TrannsGender</label> <input type="radio" name="gender" id="trans" value="TrannsGender">
+                <input type="text" id="mobile" placeholder="Mobile" required>
+                <label for="dob" id="dob-label">DOB</label><input type="date" name="dob" id="dob" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="submit" value="Submit" class="sub">
+            </form>
+        </div>
+        <div id="signin">
+            <form action="" onsubmit="signInSubmit(event)">
+                <input type="email" id="email1" placeholder="Email">
+                <input type="password" id="password2" placeholder="Password">
+                <input type="submit" value="Submit" class="sub">
+            </form>
+        </div>
+    </div>
+    <div id="menu">
+        <ol>
+            <li onclick="home()">Home</li>
+            <!-- changed -->
+            <li onclick="showUser()">Display User</li>
+            <li onclick="stock()">Stock</li>
+            <li onclick="purchase()">Purchase</li>
+            <li onclick="cart()">Cart</li>
+            <li onclick="bookingHistory()">Orders</li>
+            <!-- itemHistory -->
+            <li onclick="itemHistory()" id="itemHistory">Item History</li>
+            <li onclick="recharge()">Recharge </li>
+            <li onclick="show()">show balance</li>
+            <li onclick="Logout()">Log Out</li>
+        </ol>
+    </div>
+    <div id="home">
+        <h1 id="welcome"> </h1>
+    </div>
+    <!-- added -->
+    <div id="customerDetailsPage">
+        <table id="cusotmerTable">
+            <tr>
+                <th>CustomerID</th>
+                <th>WalletBalance</th>
+                <th>Name</th>
+                <th>FatherName</th>
+                <th>Gender</th>
+                <th>Mobile</th>
+                <th>DOB</th>
+                <th>Location</th>
+                <th>MailID</th>
+            </tr>
+            <tbody id="customerBody">
+
+            </tbody>
+        </table>
+    </div>
+    <!-- <div id="foodDetailsPage">
+        <table id="FoodTable">
+            <tr>
+                 <th>FoodID</th>
+                 <th>FoodName</th>
+                 <th>PricePerQuantity</th>
+                 <th>QuantityAvailable</th>
+            </tr>
+         </table>
+    </div> -->
+    <div id="stock">
+        <button onclick="addGrocery()" class="medButton">Add Items</button>
+        <table id="tb">
+
+            <thead>
+                <tr>
+                    <th>FoodID</th>
+                    <th>FoodName</th>
+                    <th>PricePerQuantity</th>
+                    <th>QuantityAvailable</th>
+                </tr>
+            </thead>
+            <tbody id="tbody1">
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <div id="purchase">
+        <div id="product-cont">
+        </div>
+    </div>
+
+    <div id="cart">
+        <table id="tb2">
+            <tr>
+                <thead>
+                    <th>ItemID</th>
+                    <th>OrderID</th>
+                    <th>FoodID</th>
+                    <th>PriceOfOrder</th>
+                    <th>PurchaseCount</th>
+                </thead>
+                <tbody id="tbody3">
+
+                </tbody>
+            </tr>
+        </table>
+        <button onclick="buy()" class="medButton">Buy</button>
+    </div>
+    <!-- changed added -->
+    <div id="itemDetailsPage">
+        <table id="itemTable">
+            <tr>
+                <th>ItemID</th>
+                <th>OrderID</th>
+                <th>FoodID</th>
+                <th>PurchaseCount</th>
+                <th>PriceOfOrder</th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- <div id="orderPage">
+        <table id="orderTable">
+            <tr>
+               
+            </tr>
+        </table>
+    </div> -->
+    <!-- /changed -->
+    <div id="history">
+        <table id="tb3">
+            <thead>
+                <tr>
+              <th>Order ID</th>
+              <th>Customer ID</th>
+              <th>TotalPice</th>
+              <th>DateOfOrder</th>
+              <th>OrderStatus</th>
+                </tr>
+            </thead>
+            <tbody id="booking-orderID">
+            </tbody>
+          </table>
+    </div>
+
+    <div id="top">
+        <h5 id="curBalance"></h5>
+        <input type="number" placeholder="Enter the Amount " id="amount" required>
+        <button onclick="deposit()">Deposit</button>
+    </div>
+
+    <div id="show">
+        <h5 id="balance"></h5>
+    </div>
+    <!-- changed -->
+    <div id="form1">
+        <h1>Grocery Details</h1>
+        <input type="number" id="foodid" placeholder="FoodID"/>
+        <input type="text" id="foodName" placeholder="foodName"/>
+        <input type="number" id="priceperQuantity" placeholder="Price Per Quantity"/>
+        <input type="number" id="quantityAvailable" placeholder="Quantity Available"/>
+        <button onclick="addProductTo()">submit</button>
+    </div>
+
+    <script type="text/javascript" src="Script/crud.js"></script>
+</body>
+
+</html>
