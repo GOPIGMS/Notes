@@ -1,0 +1,14 @@
+D:\CafteriaCard\bin\Debug\net8.0\CafteriaCard.exe
+D:\CafteriaCard\bin\Debug\net8.0\CafteriaCard.deps.json
+D:\CafteriaCard\bin\Debug\net8.0\CafteriaCard.runtimeconfig.json
+D:\CafteriaCard\bin\Debug\net8.0\CafteriaCard.dll
+D:\CafteriaCard\bin\Debug\net8.0\CafteriaCard.pdb
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.GeneratedMSBuildEditorConfig.editorconfig
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.AssemblyInfoInputs.cache
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.AssemblyInfo.cs
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.csproj.CoreCompileInputs.cache
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.dll
+D:\CafteriaCard\obj\Debug\net8.0\refint\CafteriaCard.dll
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.pdb
+D:\CafteriaCard\obj\Debug\net8.0\CafteriaCard.genruntimeconfig.cache
+D:\CafteriaCard\obj\Debug\net8.0\ref\CafteriaCard.dll
