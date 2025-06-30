@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+}
+/* header session */
+.header{
+    background-color: aqua;
+}
+.signin{
+    display: flex;
+    background-color: rgb(231, 192, 192);
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+.help-trail{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background-color: rgb(172, 172, 247); */
+}
+
+.header-contact{
+    display: flex;
+}
+
+/* creating the top helper */
+.help-trail{
+    font-size: 12px;
+    /* color: #1c243f; */
+    font-family:"Open Sans";
+}
+#header-boldesk{
+    margin-right: 15px;
+    font-size: 10px;
+    background-color: yellow;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#header-help{
+    /* background-color: rgb(234, 162, 54); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5px;
+}
+.help-trail>a{
+    text-decoration: none;
+    /* background-color: rgb(132, 93, 93); */
+    font-weight:bold;
+    color: #ce3a00;
+}
+.help-trail>a:hover{
+    text-decoration: underline;
+}
+.header-contact{
+    /* color: #3d3d3d; */
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.header-contactus{
+    margin-left: 9px;
+    /* background-color: azure; */
+}
+.header-blog{
+    margin-left: 9px;
+    /* background-color: beige; */
+}
+.header-signin{
+    margin-left: 9px;
+    /* background-color: bisque; */
+}
+.header-contactus:hover,.header-signin:hover,.header-blog:hover{
+    color :blue;
+}
+
+/* nav bar */
+.nav{
+    background-color: aquamarine;
+    display: flex;
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: black;
+}
+.logo>img{
+    width:150px;
+    /* background-color: #ce3a00; */
+}
+#navlist{
+    display: flex;;
+    /* background-color: blueviolet; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#navlist>li{
+    list-style: none;
+    margin-right:30px ;
+}
+li>a{
+    text-decoration: none;
+    margin-right: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#demo-button{
+    padding:  7px 10px;
+    border: 1px solid white;
+    color:white;
+    font-weight: 700;
+    margin-right:50px;
+    margin-left: 30PX;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: all 0.6s;
+}
+#free-trail-button{
+    padding:  7px 10px;
+    border: 1px solid white;
+    margin-right:30px;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+
+}
+#demo-button:hover{
+    background-color: white;
+    color: black;
+}
+
+#free-trail-button:hover{
+    background-color: rgb(75, 75, 253);
+}
+/* join hands */
+main{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.join-hands{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    align-items: center;
+    padding :20px;
+}
+.career-image{
+    /* background-color: blueviolet; */
+    margin-left: 5px;
+    width: 100%;
+}
+.career-image>img{
+    width: 100%;
+}
+
+.career-text{
+    /* background-color: rgb(153, 153, 201); */
+    padding: 20px 80px;
+}
+#syncfusion-career{
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+#syncfusion-career-text{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#para{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#explore{
+    height: 50px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #0057ff;
+    color: white;
+    font-weight: 700;
+    border:none;
+}
+#down-arrow{
+    font-weight:bolder;
+    align-items: center;
+}
+
+.patner-text>p{
+    align-items: center;
+    /* background-color: rgb(96, 204, 204); */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logos>img{
+    width: 100%;
+    /* background-color: blue; */
+    margin-bottom: 30px;
+}
+
+#why-us-box{
+background-color:#162e9c;
+height: 200px;
+color: white;
+margin-bottom: 70px;
+}
+
+#why-us-box>div{
+    height: 100%;
+    width: 250px;
+    
+}
+
+#why-us-box>div>img{
+    width:70px;
+}
+#why-us-box>div>p{
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.why-us-test{
+   font-size: 30px; 
+   font-weight: bolder;
+}
+
+#why-us-box>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.vision-mission{
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    align-items: center;
+    padding :20px;
+    margin-bottom: 30px;
+}
+
+.vision-image{
+  width: 50%;
+}
+.vision-image>img{
+  width: 100%;
+  margin-right: 10px;
+  /* background-color: red; */
+
+}
+.vision-text{
+ width:45%;
+ padding:20px;
+ /* background-color: blue; */
+ margin-bottom: 15px;
+}
+.vision-text>h2{
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.vision-para{
+    font-size: 18px;
+    line-height: 26px;
+    word-spacing: 0.3em;
+    letter-spacing: 1px;
+}
+
+section{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+}
+
+#syncfusion-values{
+    background-color: #f9fbfd;
+}
+
+.container{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+}
+#heading-values{
+    margin-top :80px;
+    font-size : 40px;
+    font-weight: 700;
+    width:100%;
+}
+#content-values{
+    margin-top:20px;
+    font-size: 18px;
+    font-weight: 600;
+    width :100%;
+    color: #475581;
+    margin-bottom: 70px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width:31%;
+    margin-right: 23px;
+    margin-bottom: 60px;
+}
+.wrapper-image{
+    height: 80px;
+}
+.wrapper-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px ;
+}
+.wrapper-text{
+    font-size: 18px;
+}
+
+.openings{
+    background-color: #162e9c;
+}
+
+.card-job-recuitment > #current-opening{
+margin-top: 80px;
+color: white;
+font-size: 40px;
+text-align: center;
+font-family: ;
+}

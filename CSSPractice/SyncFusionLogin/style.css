@@ -1,0 +1,135 @@
+*{
+    padding :0;
+    margin:0;
+}
+body{
+    background-color: #5e5a5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+section{
+    width:20em;
+    height: 22em;
+    padding-top: 4em;
+    
+}
+.social-media-login{
+    background-color: rgba(134, 46, 46, 0.981);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 3em;
+}
+.sign-up{
+    background-color:white;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+#sync-icon{
+    width:8em;
+    padding-bottom: 0.7em;
+
+}
+#hello-welcometext{
+    font-size: 1.6em;
+}
+.sign-in>input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(176, 176, 176, 0.599);
+    width: 80%;
+    margin-bottom: 2em;   
+}
+#text{
+    margin-bottom: 0.9em;
+}
+
+button{
+    width:80% ;
+    height: 2.5em;
+    margin-bottom: 0.7em;
+}
+#facebook-login{
+    background-color: rgba(56, 54, 169, 0.882);
+    text-align: left;
+    padding-left: 1em;
+    color: white;
+    border: none;
+
+}
+#google-login{
+    background-color: rgb(255, 54, 77);
+    text-align: left;
+    padding-left: 1em;
+    color: white;
+    border: none;
+
+}
+#twitter-login{
+    background-color: rgb(50, 168, 237);
+    text-align: left;
+    padding-left: 1em;
+    color: white;
+    border: none;
+
+
+}
+#facebook-icon{
+    padding-right: 5px;
+}
+#google-icon{
+    padding-right: 5px;
+}
+#twitter-icon{
+    padding-right: 5px;
+}
+
+#login-heading{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+#account-creation{
+    color: rgb(169, 78, 78);
+    margin-bottom: 1em;
+}
+#account-creation>a{
+    text-decoration: none;
+    color: rgb(50, 168, 237);
+
+}
+
+.sign-up>.input{
+    padding:0.5em 2em 0.5em 0.5em;
+    margin-bottom: 10px;
+    width: 84%;
+    border: 0.1px solid #9c9797;
+    outline:none;
+}
+.sign-up>label{
+    font-family: sans-serif;
+    margin-left: 7px;
+    font-size: 0.8em;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+
+.sign-up>button{
+    background-color: red;
+    border: none;
+    width: 25%;
+    margin-top: 12px;
+    color: white;
+}
+
+#modify >a{
+    color: rgb(198, 34, 34);
+    text-decoration: none;
+}

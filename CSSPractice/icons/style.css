@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.iconlist{
+    display: flex;
+    width: 520px;
+}
+.iconlist>div{
+    margin-right: 40px;
+}
+
+.icon{
+    color: blue;
+}

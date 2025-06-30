@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.image>img {
+    width: 100px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 5px 20px;
+    margin-bottom: 6%;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 40px;
+    justify-content: center;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav>ul>li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 30px;
+    height: 100%;
+    border-radius: 5px;
+
+
+}
+
+li>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    height: 80%;
+
+
+}
+
+.nav>ul>li:hover>a {
+    background-color:rgb(255, 178, 13);
+    color: white;
+    border-radius: 5px;
+}
+
+.login {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login:hover {
+    background-color: rgb(255, 178, 13);
+    color: white;
+
+}
+
+.cart {
+    position: relative;
+
+}
+
+.count {
+    position: absolute;
+    background-color: rgb(255, 178, 13);
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+}
+
+.card{
+    background-color: #ffffff;
+    width:250px;
+    height:350px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+
+    box-shadow: 5px 5px  10px 0px  rgb(196, 195, 195) ;
+    margin: 50px ;
+
+}
+
+main{
+    display: flex;
+    padding: 5px 20px;
+    flex-wrap: wrap;
+}
+.image{
+    width: 50%;
+}
+
+.card>.image>img{
+    width: 250px;
+    height: 200px;
+}
+.detail{
+    padding: 20px;
+}
+.food-name{
+    display:flex;
+    font-weight:bolder;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    
+}
+.message{
+    font-size: 14px;
+    margin-bottom: 9px;
+    color: rgb(58, 54, 54);
+}
+.rating{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    width:70px;
+    height:35px;
+    background-color: rgb(255, 178, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+
+}
+#plus{
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.image>img{
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 65px;
+}
+.image{
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 65px;
+}

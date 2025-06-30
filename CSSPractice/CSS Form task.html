@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #00bfff;
+            margin: 0;
+        }
+        .container {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #00bfff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #009acd;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Contact Us</h2>
+    <p>Contact us today, and get a reply within 24 hours!</p>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <div class="error" id="nameError"></div>
+
+        <input type="email" id="email" placeholder="Enter your Email Address">
+        <div class="error" id="emailError"></div>
+
+        <input type="text" id="phone" placeholder="Enter your Phone #">
+        <div class="error" id="phoneError"></div>
+
+        <input type="url" id="website" placeholder="Enter your Website (https only)">
+        <div class="error" id="websiteError"></div>
+
+        <textarea id="message" placeholder="Enter your message (Max 140 characters)" maxlength="140"></textarea>
+        <div class="error" id="messageError"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output" class="output"></div>
+</div>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        
+        let isValid = true;
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let phone = document.getElementById("phone").value.trim();
+        let website = document.getElementById("website").value.trim();
+        let message = document.getElementById("message").value.trim();
+
+        let nameError = document.getElementById("nameError");
+        let emailError = document.getElementById("emailError");
+        let phoneError = document.getElementById("phoneError");
+        let websiteError = document.getElementById("websiteError");
+        let messageError = document.getElementById("messageError");
+
+        nameError.textContent = emailError.textContent = phoneError.textContent = websiteError.textContent = messageError.textContent = "";
+
+        let nameRegex = /^[A-Za-z\s]+$/;
+        let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        let phoneRegex = /^\d{1}-\d{3}-\d{3}-\d{3}$/;
+        let websiteRegex = /^https:\/\/.+$/;
+
+        if (!nameRegex.test(name)) {
+            nameError.textContent = "Only alphabets are allowed.";
+            isValid = false;
+        }
+        if (!emailRegex.test(email)) {
+            emailError.textContent = "Invalid email format.";
+            isValid = false;
+        }
+        if (!phoneRegex.test(phone)) {
+            phoneError.textContent = "Phone format: 1-234-567-890";
+            isValid = false;
+        }
+        if (website && !websiteRegex.test(website)) {
+            websiteError.textContent = "Only HTTPS links are allowed.";
+            isValid = false;
+        }
+        if (message.length > 140) {
+            messageError.textContent = "Message must be under 140 characters.";
+            isValid = false;
+        }
+
+        if (isValid) {
+            let userDetails = {
+                name: name,
+                email: email,
+                phone: phone,
+                website: website,
+                message: message
+            };
+
+            let savedData = JSON.parse(sessionStorage.getItem("formData")) || [];
+            savedData.push(userDetails);
+            sessionStorage.setItem("formData", JSON.stringify(savedData));
+
+            displayOutput();
+            document.getElementById("contactForm").reset();
+        }
+    });
+
+    function displayOutput() {
+        let output = document.getElementById("output");
+        output.innerHTML = "<h3>We have received:</h3>";
+        
+        let savedData = JSON.parse(sessionStorage.getItem("formData")) || [];
+        savedData.forEach((data, index) => {
+            output.innerHTML += `
+                <p><strong>Name:</strong> ${data.name}</p>
+                <p><strong>Email:</strong> ${data.email}</p>
+                <p><strong>Phone:</strong> ${data.phone}</p>
+                <p><strong>Website:</strong> ${data.website || "N/A"}</p>
+                <p><strong>Message:</strong> ${data.message}</p>
+                <hr>
+            `;
+        });
+    }
+
+    displayOutput();
+</script>
+
+</body>
+</html>
