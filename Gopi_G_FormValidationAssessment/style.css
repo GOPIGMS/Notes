@@ -1,0 +1,147 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainwrapper {
+    border: 3px solid black;
+    padding: 30px;
+    width: 80%;
+}
+
+.error input {
+    border: 2px solid red;
+}
+
+.success input {
+    border: 2px solid rgb(61, 242, 52);
+
+}
+
+.gender-error-message {
+    margin-top: 13px;
+    margin-left: 6px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.success {
+    border: 2px solid rgb(61, 242, 52);
+}
+
+#errormessage {
+    color: red;
+
+    height: 30px;
+    font-size: 14px;
+}
+
+form {
+    padding: 20px 50px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px 10px;
+
+}
+
+input :focus {
+    outline: none;
+}
+
+#form-header {
+    margin: 50px;
+    padding: 20px 40px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.namingwrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    height: 60px;
+
+}
+
+#username-head,
+#contact-head,
+#password-head {
+    margin: 6px 0 0 0;
+    height: 100%;
+}
+
+#name-head {
+    height: 100%;
+}
+
+/* gender-head-wrap */
+#gender-head-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.gender-wrapper {
+    margin-bottom: 30px;
+}
+
+.address-wrapper {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.dateofbirthtime-wrapper {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 230px;
+}
+
+.language-interest-wrapper {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 230px;
+}
+
+.fileupload-wrapper {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 90px;
+}
+
+table, th, tr, td{
+  
+    border: 2px double;
+}
+
+td,th{
+    padding: 5px 20px;
+}
+.table-container{
+    /* display: ; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.table-container h1 {
+    text-align: center;
+}
+
+.table-container button {
+    width:100px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left :400px;
+}
+#table-component{
+    display: none;
+}

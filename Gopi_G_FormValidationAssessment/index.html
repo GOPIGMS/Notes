@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div class="mainwrapper" id="main-form-wrapper">
+        <div class="mainwrapperheader">
+            <h1 id="form-header">User Registration form</h1>
+            <div class="formcontainer">
+                <!-- form -->
+                <form id="myForm"  >
+                    <!-- name naming wrapper -->
+                    <div class="namingwrapper">
+                        <!-- name validtor -->
+                        <div id="name-head">
+                            <h3 id="username-head">
+                                Name :
+                            </h3>
+                        </div>
+                        <div class="inputvalidity">
+                            <div id="name-input">
+                                <input type="text" name="username" id="firstname" placeholder="FirstName">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+                        <div class="inputvalidity">
+                            <div id="lastname-input">
+                                <input type="text" name="lastname" id="lastname" placeholder="LastName">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Contact -->
+                    <div class="namingwrapper">
+                        <!-- name validtor -->
+                        <div id="name-head">
+                            <h3 id="contact-head">
+                                Contact :
+                            </h3>
+                        </div>
+
+                        <div class="inputvalidity">
+                            <div id="email-input">
+                                <input type="text" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+                        <div class="inputvalidity">
+                            <div id="phone-input">
+                                <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- password -->
+                    <!-- Contact -->
+                    <div class="namingwrapper">
+                        <!-- name validtor -->
+                        <div id="name-head">
+                            <h3 id="password-head">
+                                password :
+                            </h3>
+                        </div>
+                        <div class="inputvalidity">
+                            <div id="password-input">
+                                <input type="password" name="password" id="password" placeholder="Password">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+                        <div class="inputvalidity">
+                            <div id="confirmpassword-input">
+                                <input type="password" name="confirmpassword" id="confirmpassword"
+                                    placeholder="Confirm password">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- gender div -->
+                    <div class="gender-wrapper">
+                        <div id="gender-head-wrapper">
+                            <h3 id="gender-head"> Gender :</h3>
+                            <div id="errormessage" class="gender-error-message">
+
+                            </div>
+                        </div>
+
+                        <div class="gender-details">
+                            <input type="radio" name="gender" id="male" value="Male"> Male
+                            <input type="radio" name="gender" id="female" value="Female"> Female
+                            <input type="radio" name="gender" id="others" value="others"> others
+
+                        </div>
+
+                    </div>
+                    <!-- Persent address -->
+                    <div class="address-wrapper">
+                        <div id="present-address-wrapper">
+                            <div>
+                                <h3 id="present-address-head">
+                                    Present Address:
+                                </h3>
+                            </div>
+                            <div class="textarea-wrapper">
+                                <textarea name="textarea" id="present-address" cols="30" rows=5></textarea>
+
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                            <div class="pincode-wrapper">
+                                <div id="pincode-head">
+                                    Pin Code :
+                                </div>
+                                <div id="pincode-value">
+                                    <input type="number" name="pincode" id="pincode">
+                                </div>
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                            <div class="state-wrapper">
+                                <div id="state-head">
+                                    State :
+                                </div>
+                                <div id="state-value">
+                                    <select name="state" id="state">
+                                        <option value="no-state">Select State</option>
+                                        <option value="TamilNadu">TamilNadu</option>
+                                        <option value="kerala">Kerala</option>
+                                        <option value="Andra">Andra</option>
+                                        <option value="Telungana">Telungana</option>
+                                    </select>
+                                </div>
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- permanent address -->
+                        <div id="premanent-address-wrapper">
+                            <div>
+                                <h3 id="premanent-address-head">
+                                    Permanent Address: <span> <input type="checkbox" name="same" id="same"> Same as
+                                        Present address</span>
+                                </h3>
+
+                            </div>
+                            <div class="textarea-wrapper">
+                                <textarea name="textarea" id="permanent-address" cols="30" rows=5></textarea>
+
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                            <div class="pincode-wrapper">
+                                <div id="permanent-pincode-head">
+                                    Pin Code :
+                                </div>
+                                <div id="permanenet-pincode-value">
+                                    <input type="number" name="pincode" id="permanent-pincode">
+                                </div>
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                            <div class="state-wrapper">
+                                <div id="permanent-state-head">
+                                    State :
+                                </div>
+                                <div id="permanent-state-value">
+                                    <select name="state" id="permanent-state">
+                                        <option value="no-state">Select State</option>
+                                        <option value="TamilNadu">TamilNadu</option>
+                                        <option value="kerala">Kerala</option>
+                                        <option value="Andra">Andra</option>
+                                        <option value="Telungana">Telungana</option>
+                                    </select>
+                                </div>
+                                <div id="errormessage">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- date of brith wrapper -->
+                    <div class="dateofbirthtime-wrapper">
+                        <div class="birthdatewrapper">
+                            <div id="birthdate-head">
+                                <h3 class="birthdate"> Date of birth :</h3>
+                            </div>
+                            <div class="bithdate-input">
+                                <input type="date" name="birthdate" id="birthdate">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+
+                        </div>
+                        <div class="birth-time-wrapper">
+                            <div id="birthtime-head">
+                                <h3 id="birthtime-head"> Birth Time :</h3>
+                            </div>
+                            <div class="bithtime-input">
+                                <input type="time" name="birthtime" id="birthtime">
+                            </div>
+                            <div id="errormessage">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- language and interest  -->
+                    <div class="language-interest-wrapper">
+                        <div class="language-wrapper">
+                            <div id="language-head">
+                                <h3 id="birthtime">Langauages :</h3>
+                            </div>
+                            <div class="languages-input">
+                                <input type="checkbox" name="language" id="tamil" value="Tamil"> Tamil <br>
+                                <input type="checkbox" name="language" id="english" value="English">English <br>
+                                <input type="checkbox" name="language" id="french" value="French">French
+                            </div>
+                            <div id="errormessage">
+                            </div>
+                        </div>
+                        <div class="interest-wrapper">
+                            <div id="interst-head-wrapper">
+                                <h3 id="interst-head">Select your field of interest:</h3>
+                            </div>
+                            <div class="interest">
+                                <select name="interest" id="interest" size="3" multiple>
+                                    <option value="default-value">Select Value</option>
+                                    <option value="Music">Music</option>
+                                    <option value="Singing">Singing</option>
+                                    <option value="Dancing">Dancing</option>
+                                    <option value="running">Running</option>
+                                </select>
+                            </div>
+                            <div id="errormessage">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fileupload-wrapper">
+                        <div class="imagewrapper">
+                            <div id="image-head-wrapper">
+                                <h3 id="image-head">Upload Your Photo :</h3>
+                            </div>
+                            <div class="file-wrapper">
+                                <input type="file" name="image" id="image">
+                            </div>
+                            <div id="errormessage">
+                            </div>
+                        </div>
+                        <div class="resumewrapper">
+                            <div id="resume-head-wrapper">
+                                <h3 id="resume-head">Upload Your Resume :</h3>
+                            </div>
+                            <div class="resume-wrapper">
+                                <input type="file" name="resume" id="resume">
+                            </div>
+                            <div id="errormessage">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-container" id="table-component">
+        <h1 id="table-header">Output Screen </h1>
+        <table>
+          <tr>
+            <th>USERNAME</th>
+            <td id="print-name"> Gopi</td>
+          </tr>
+          <tr>
+            <th>EMAIL ID</th>
+            <td id="print-email"> Gopi@sdfdf</td>
+          </tr>
+          <tr>
+            <th>PHONE NUMBER </th>
+            <td id="print-phone"> Gopi@sdfdf</td>
+          </tr>
+          <tr>
+            <th>PASSWORD </th>
+            <td id="print-password">12334545</td>
+          </tr>
+          <tr>
+            <th>GENDER </th>
+            <td id="print-gender">MALE</td>
+          </tr>
+          <tr>
+            <th>CURRENT ADDRESS </th>
+            <td id="print-address">SOUTH STREET</td>
+          </tr>
+          <tr>
+            <th>DATE OF BIRTH </th>
+            <td id="print-dob">3245345</td>
+          </tr>
+          <tr>
+            <th>TIME</th>
+            <td id="print-time">11;4545</td>
+          </tr>
+          <tr>
+            <th>LANGUAGE</th>
+            <td id="print-language">ENGLISH</td>
+          </tr>
+          <tr>
+            <th>FIELD OF INTEREST</th>
+            <td id="print-interest">SING</td>
+          </tr>
+          <tr>
+            <th>PHOTO</th>
+            <td id="print-photo"><img src="" alt="image" id="my-image"></td>
+          </tr>
+          <tr>
+            <th>RESUME</th>
+            <td id="print-resume"><a href="" download id="resumes">Resume</a></td>
+          </tr>
+
+        </table>
+
+        <button onclick="showForm()">Back </button>
+
+    </div>
+</body>
+
+</html>
