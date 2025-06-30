@@ -1,0 +1,14 @@
+D:\OnlineTheatreTicketBooking\bin\Debug\net8.0\OnlineTheatreTicketBooking.exe
+D:\OnlineTheatreTicketBooking\bin\Debug\net8.0\OnlineTheatreTicketBooking.deps.json
+D:\OnlineTheatreTicketBooking\bin\Debug\net8.0\OnlineTheatreTicketBooking.runtimeconfig.json
+D:\OnlineTheatreTicketBooking\bin\Debug\net8.0\OnlineTheatreTicketBooking.dll
+D:\OnlineTheatreTicketBooking\bin\Debug\net8.0\OnlineTheatreTicketBooking.pdb
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.GeneratedMSBuildEditorConfig.editorconfig
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.AssemblyInfoInputs.cache
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.AssemblyInfo.cs
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.csproj.CoreCompileInputs.cache
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.dll
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\refint\OnlineTheatreTicketBooking.dll
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.pdb
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\OnlineTheatreTicketBooking.genruntimeconfig.cache
+D:\OnlineTheatreTicketBooking\obj\Debug\net8.0\ref\OnlineTheatreTicketBooking.dll
