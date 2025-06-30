@@ -1,0 +1,87 @@
+$primary-font : sans-serif;
+$font-weights :(
+    "lighter" : 300,
+    "normal"  : 500,
+    "bold" : 800,
+);
+$centerer :center;
+$primary-color: rgb(252, 123, 17);
+$grey-shade :grey;
+$black-shade :black;
+$green-shade :green;
+$white-shade: white;
+$red-shade:red;
+
+
+body{
+    display: flex;
+    justify-content: $centerer;
+    align-items: $centerer;
+    height: 100vh;
+
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-family: $primary-font;
+    font-weight: map-get($font-weights , normal );
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        padding: 20px;
+        box-shadow: 0px 0px 5px $grey-shade;
+        width: 20%;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: $centerer;
+       
+    }
+    
+    h1{
+        text-align: $centerer;
+    }
+    .button{
+        display: flex;
+        justify-content: $centerer;
+    }
+    button{
+        padding:10px 20px;
+        background-color:$white-shade;
+        border: 2px solid $primary-color;
+        color: $primary-color;
+        border-radius: 25px;
+        margin-bottom: 10px;
+        font-weight: map-get($font-weights , bold );
+    }
+    p{
+        text-align: $centerer;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+    }
+
+    .container2{
+        @extend .container1;
+        p{
+            color:$red-shade;
+        }
+        button{
+             background-color: $black-shade;
+        }
+    }
+    .container3{
+        @extend .container1;
+        p{
+            color:$primary-color;
+        }
+        button{
+            background-color: $green-shade;
+            color:$white-shade;
+        }
+    }
+    
+    
+}

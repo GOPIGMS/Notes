@@ -1,0 +1,25 @@
+@import './variable';
+@import './color';
+
+
+body{
+    font-family: $font-name;
+    letter-spacing: 0.05em;
+
+
+}
+
+.container{
+    
+    .container-heading{
+        color: $black-color;
+        font-weight: map-get($font-weights , bold );
+    }
+    .container-message{
+        color:$ash-color ;
+    }
+    span{
+        color:$blue-color;
+    }
+
+}

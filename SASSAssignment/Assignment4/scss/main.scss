@@ -1,0 +1,58 @@
+@import './reseter';
+@import './font';
+@import './variable';
+@import './color';
+
+
+@function screenWidth() {
+    @return 100%;
+}
+
+@function screenHeight() {
+    @return 100%;
+}
+
+@function calculateWidth($value){
+    @return calc(5vw*$value);
+}
+@mixin seperator{
+    display: flex;
+    gap: 15px;
+}
+@mixin flex-converter{
+    display: flex;
+}
+
+body {
+
+    font-family: $primary-font;
+    width:100vw;
+    height:100vh;
+}
+.container{
+    background-color: $primary-color;
+    color: $secondary-color;
+    height:100vh;
+   
+}   
+.wrapper{
+    @include seperator();
+    #container1{
+        @include flex-converter;
+        width: calculateWidth(2);
+    }
+    #container2{
+        @include flex-converter;
+        width: calculateWidth(4);
+    }
+    #container3{
+        @include flex-converter;
+        width: calculateWidth(6);
+    }
+    #container4{
+        @include flex-converter;
+        width: calculateWidth(8);
+    }
+
+
+}

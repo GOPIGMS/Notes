@@ -1,0 +1,29 @@
+body {
+  background-color: #808285;
+  font-family: sans-serif;
+}
+
+#header-title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 30px;
+}
+.container .leftcontainer {
+  width: 50%;
+  border-bottom: 2px solid rgb(8, 8, 8);
+}
+.container .rightcontainer {
+  width: 50%;
+  border-bottom: 2px solid rgb(8, 8, 8);
+}
+.container .inner-header {
+  font-weight: 800;
+}
+.container .inner-text {
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

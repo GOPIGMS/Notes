@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: boder-boxing;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15px;
+}
+.wrapper #container1 {
+  display: flex;
+  width: 10vw;
+}
+.wrapper #container2 {
+  display: flex;
+  width: 20vw;
+}
+.wrapper #container3 {
+  display: flex;
+  width: 30vw;
+}
+.wrapper #container4 {
+  display: flex;
+  width: 40vw;
+}/*# sourceMappingURL=main.css.map */

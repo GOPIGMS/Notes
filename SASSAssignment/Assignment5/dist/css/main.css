@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .uppersection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container .uppersection .container-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.container .uppersection .text-wrapper .heading-text {
+  font-size: 17px;
+}
+.container .text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .heading-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  width: 80%;
+}
+.container .lowersection {
+  display: flex;
+  justify-content: space-around;
+}
+.container .lowersection .lowersection-wrap {
+  width: 100%;
+}
+.container .lowersection .lowersection-wrap .inner-lower-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.container .lowersection .lowersection-wrap .inner-lower-container .image {
+  width: 75px;
+}
+.container .lowersection .lowersection-wrap .inner-lower-container .image img {
+  width: 75px;
+}
+.container .lowersection .lowersection-wrap .inner-lower-container .inner-head {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.container .lowersection .lowersection-wrap .inner-lower-container .inner-text {
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */

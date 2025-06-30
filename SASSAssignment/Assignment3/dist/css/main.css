@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.container .container-heading {
+  color: rgb(13, 13, 13);
+  font-weight: 700;
+}
+.container .container-message {
+  color: rgb(203, 201, 201);
+}
+.container span {
+  color: rgb(65, 156, 208);
+}/*# sourceMappingURL=main.css.map */
