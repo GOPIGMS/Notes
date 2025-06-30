@@ -1,0 +1,14 @@
+D:\OnlineHospitalManagement\bin\Debug\net8.0\OnlineHospitalManagement.exe
+D:\OnlineHospitalManagement\bin\Debug\net8.0\OnlineHospitalManagement.deps.json
+D:\OnlineHospitalManagement\bin\Debug\net8.0\OnlineHospitalManagement.runtimeconfig.json
+D:\OnlineHospitalManagement\bin\Debug\net8.0\OnlineHospitalManagement.dll
+D:\OnlineHospitalManagement\bin\Debug\net8.0\OnlineHospitalManagement.pdb
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.AssemblyInfoInputs.cache
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.AssemblyInfo.cs
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.csproj.CoreCompileInputs.cache
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.dll
+D:\OnlineHospitalManagement\obj\Debug\net8.0\refint\OnlineHospitalManagement.dll
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.pdb
+D:\OnlineHospitalManagement\obj\Debug\net8.0\OnlineHospitalManagement.genruntimeconfig.cache
+D:\OnlineHospitalManagement\obj\Debug\net8.0\ref\OnlineHospitalManagement.dll
